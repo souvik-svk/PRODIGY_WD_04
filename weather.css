@@ -1,0 +1,46 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #afe2ee, #a5b6e0);
+    color: #01060a;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000c0e;
+    color: #fbf9f9;
+    cursor: pointer;
+    text-decoration-color: rgb(117, 232, 232);
+}
+
+button:hover {
+    background-color: #d11e9e;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
